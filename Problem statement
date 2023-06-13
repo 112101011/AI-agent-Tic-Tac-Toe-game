@@ -1,0 +1,10 @@
+Design an AI agent to play the tic-tac-toe game against the user. The following are some rules needed to be followed.
+
+The Tic-Tac-Toe game starts on a 3x3 grid with two players "X" and "O" who take turns and play. The rules are as follows: each player gets a turn with player "X" (resp. "O") writing an "X" (resp. "O") in an empty cell of the grid. The game starts with the move of the "O" player. The first player to write on three horizontal or vertical or diagonal cells wins.
+Here the AI agent is places 'X' optimally. Where as the user(we) places 'O' optimal (or) sub-optimal depends on the user.
+
+Example for the player 'X' winning:
+
+
+Example for the player 'O' winning:
+
