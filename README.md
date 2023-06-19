@@ -9,7 +9,7 @@ The rules are as follows:
   2) The game starts with the move of the "O" player. 
   3) The first player to write on three horizontal or vertical or diagonal cells wins.
   4) The player who wins gets 1 point, the player who loses gets -1 point. If a match draws then each player gets 0 points.
-Here the AI agent is places 'X' optimally. Where as the user(we) places 'O' optimal (or) sub-optimal depends on the user.
+Here the AI agent places 'X' optimally. Where as the user(we) places 'O' optimal (or) sub-optimal depends on the user.
 
 Example for the player 'X' winning:
 
