@@ -1,6 +1,6 @@
 # Tic-Tac-Toe-game
 
-# problem statement
+## Problem statement
 Design an AI agent to play the tic-tac-toe game against the user. The following are some rules needed to be followed.
 
 The Tic-Tac-Toe game starts on a 3x3 grid with two players "X" and "O" who take turns and play. 
@@ -17,7 +17,7 @@ Example for the player 'X' winning:
 Example for the player 'O' winning:
 
 
-# Approach
+## Approach
 
 This is a competetive envionment where one player tries to maximises its performence which in turn will minimise the performance of other
 player.
