@@ -17,7 +17,7 @@ Example for the player 'X' winning:
 Example for the player 'O' winning:
 
 
-
+# Approach
 
 This is a competetive envionment where one player tries to maximises its performence which in turn will minimise the performance of other
 player.
