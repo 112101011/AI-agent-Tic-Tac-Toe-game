@@ -5,12 +5,12 @@ Design an AI agent to play the tic-tac-toe game against the user.
 
 The Tic-Tac-Toe game starts on a 3x3 grid with two players "X" and "O" who take turns and play. 
 The rules are as follows: 
-  1) each player gets a turn with player "X" (resp. "O") writing an "X" (resp. "O") in an empty cell of the grid. 
+  1) Each player gets a turn with player "X" (resp. "O") writing an "X" (resp. "O") in an empty cell of the grid. 
   2) The game starts with the move of the "O" player. 
   3) The first player to write on three horizontal or vertical or diagonal cells wins.
   4) The player who wins gets 1 point, the player who loses gets -1 point. If a match draws then each player gets 0 points.
-  5) The locations of the grid are as follows:
-     ![image](https://github.com/112101011/Tic-Tac-Toe-game/assets/111628378/9ab470a3-2758-477c-8006-2f8984612307)
+  5) The locations of the grid are as follows:<br/>
+     ![image](https://github.com/112101011/Tic-Tac-Toe-game/assets/111628378/9ab470a3-2758-477c-8006-2f8984612307) <br/>
 Here the AI agent places 'X' optimally. Where as the user(we) places 'O' optimal (or) sub-optimal depends on the user.
 
 Example for the player 'X' winning:
