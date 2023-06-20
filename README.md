@@ -37,4 +37,4 @@ Game Tree: <br/>
 
 File MiniMax search.ipynb contains TicTacToe class written using minimax search without alpha-bheta pruning. <br/>
 File Alpha Beta pruning.ipynb contains TicTacToe1 class written using minimax search with aplha-bheta pruning. <br/>
-The comparision between MiniMax search and MiniMax search using alpha beta pruning gives a good idea about the advantage of pruning in game search.
+The comparision between MiniMax search and MiniMax search using alpha beta pruning gives a good idea about the advantage of pruning in game theory.
