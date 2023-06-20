@@ -13,10 +13,10 @@ The rules are as follows:
      ![image](https://github.com/112101011/Tic-Tac-Toe-game/assets/111628378/9ab470a3-2758-477c-8006-2f8984612307) <br/>
 Here the AI agent places 'X' optimally. Where as the user(we) places 'O' optimal (or) sub-optimal depends on the user.
 
-Example for the player 'X' winning:
+Example for the player 'X' winning: <br/>
 ![image](https://github.com/112101011/Tic-Tac-Toe-game/assets/111628378/3d72b9ad-5b0e-4575-9529-6b53dd4b2ee7)
 
-Example for the player 'O' winning:
+Example for the player 'O' winning: <br/>
 ![image](https://github.com/112101011/Tic-Tac-Toe-game/assets/111628378/678b7322-2a06-475b-8188-f69c99d98020)
 
 
