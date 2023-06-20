@@ -22,26 +22,19 @@ Example for the player 'O' winning: <br/>
 
 ## Approach
 
-This is a competetive envionment where one player tries to maximises its performence which in turn will minimise the performance of other
-player.
-
-This kind of environments lead to adversial search, where two (or) more agents have conflicting goals.
-
-This is a zero-sum game(what is good for one player is not good for other, that is there is no win-win (or) lose-lose situation).
-
-If we consider each cell in the board to distinct, the number of valid states in this game would be less than 3^(9) [upper bound]. Because it 
-is the number of functions from 9 cells to {X, O, blank}.
-
-Here it is very important to note that player 'X' (that is AI agent) is not taking any risks since it assumes that the opponent always play 
-optimally. Code is also written accordingly. If 'X' assumes that opponent 'O' plays sub-optimally it can take risks accordingly.
+1) This is a competetive envionment where one player tries to maximises its performence which in turn will minimise the performance of other player.
+2) This kind of environments lead to adversial search, where two (or) more agents have conflicting goals.
+3) This is a zero-sum game(what is good for one player is not good for other, that is there is no win-win (or) lose-lose situation).
+4) If we consider each cell in the board to distinct, the number of valid states in this game would be less than 3^(9) [upper bound]. Because it is the number of functions from 9 cells to {X, O, blank}.
+5) Here it is very important to note that player 'X' (that is AI agent) is not taking any risks since it assumes that the opponent always play optimally. Code is also written accordingly. If 'X' assumes that opponent 'O' plays sub-optimally it can take risks accordingly.
 
 Here, in the program minimax algorithm is implemented where it assumes that players play optimally. The minimax algorithm performs a complete 
 depth-first search exploration of the Game Tree If the maximum depth of the Tree is m and there are b legal moves at each point. 
-Time complexity: O(b^(m)) and space complexity is O(bm) [in general]. Later the performance can be improved by aplha-beta pruining.
+Time complexity: O(b^(m)) and space complexity is O(bm) [in general]. Later the performance can be improved by aplha-beta pruining. <br/>
 
 Game Tree: <br/>
-![image](https://github.com/112101011/Tic-Tac-Toe-game/assets/111628378/d60eaf4e-0c65-4cb4-bf75-69d5708e3b28)
+![image](https://github.com/112101011/Tic-Tac-Toe-game/assets/111628378/d60eaf4e-0c65-4cb4-bf75-69d5708e3b28) <br/>
 
-File MiniMax search.ipynb contains TicTacToe class written using minimax search without alpha-bheta pruning.
-File Alpha Beta pruning.ipynb contains TicTacToe1 class written using minimax search with aplha-bheta pruning.
-The comparision gives a good idea about the advantage of pruning in game search.
+File MiniMax search.ipynb contains TicTacToe class written using minimax search without alpha-bheta pruning. <br/>
+File Alpha Beta pruning.ipynb contains TicTacToe1 class written using minimax search with aplha-bheta pruning. <br/>
+The comparision between MiniMax search and MiniMax search using alpha beta pruning gives a good idea about the advantage of pruning in game search.
