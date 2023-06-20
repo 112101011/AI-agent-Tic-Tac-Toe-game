@@ -1,7 +1,7 @@
 # Tic-Tac-Toe-game
 
 ## Problem statement
-Design an AI agent to play the tic-tac-toe game against the user. The following are some rules needed to be followed.
+Design an AI agent to play the tic-tac-toe game against the user. 
 
 The Tic-Tac-Toe game starts on a 3x3 grid with two players "X" and "O" who take turns and play. 
 The rules are as follows: 
@@ -12,9 +12,10 @@ The rules are as follows:
 Here the AI agent places 'X' optimally. Where as the user(we) places 'O' optimal (or) sub-optimal depends on the user.
 
 Example for the player 'X' winning:
-
+![image](https://github.com/112101011/Tic-Tac-Toe-game/assets/111628378/3d72b9ad-5b0e-4575-9529-6b53dd4b2ee7)
 
 Example for the player 'O' winning:
+![image](https://github.com/112101011/Tic-Tac-Toe-game/assets/111628378/678b7322-2a06-475b-8188-f69c99d98020)
 
 
 ## Approach
