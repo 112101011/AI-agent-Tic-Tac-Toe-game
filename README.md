@@ -48,5 +48,5 @@ The prgram is written so that every time it will make the moves so that 'X' can 
 ## Futher scope <br/>
 ```
 1) We can decrease the depth of exploration in game tree so that 'X' player plays less harder.
-2) We can allow the 'X' player to make some risks so that where the game results in draw can made win to 'X'.
+2) We can allow the 'X' player to make some risk moves so that 'X' wins instead of draw.
 ```
