@@ -37,4 +37,7 @@ Game Tree: <br/>
 
 File MiniMax search.ipynb contains TicTacToe class written using minimax search without alpha-bheta pruning. <br/>
 File Alpha Beta pruning.ipynb contains TicTacToe1 class written using minimax search with aplha-bheta pruning. <br/>
-The comparision between MiniMax search and MiniMax search using alpha beta pruning gives a good idea about the advantage of pruning in game theory.
+The comparision between MiniMax search and MiniMax search using alpha beta pruning gives a good idea about the advantage of pruning in game theory. We can observe the advantage of alpha-beta pruning by noticing that the number of leaves in a Game tree without pruning is around 25,000 whereas after pruning it became around 1000.
+One example of alpha beta pruning:<br/>
+![image](https://github.com/112101011/Tic-Tac-Toe-game/assets/111628378/b5ebb189-ef22-4217-8fe5-34ccff698ab5)
+
