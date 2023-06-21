@@ -32,8 +32,10 @@ Here, in the program minimax algorithm is implemented where it assumes that play
 depth-first search exploration of the Game Tree If the maximum depth of the Tree is m and there are b legal moves at each point. 
 Time complexity: O(b^(m)) and space complexity is O(bm) [in general]. Later the performance can be improved by aplha-beta pruining. <br/>
 
+<p align="center">
 Game Tree: <br/>
 ![tic-tac-toe](https://github.com/112101011/Tic-Tac-Toe-game/assets/111628378/5294d5db-e7bf-4692-a9bf-f46e2fae949f)<br/>
+</p>
 
 ## Files: <br/>
 File MiniMax search.ipynb contains TicTacToe class written using minimax search without alpha-bheta pruning. <br/>
