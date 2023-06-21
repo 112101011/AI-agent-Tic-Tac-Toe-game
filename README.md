@@ -33,7 +33,7 @@ depth-first search exploration of the Game Tree If the maximum depth of the Tree
 Time complexity: O(b^(m)) and space complexity is O(bm) [in general]. Later the performance can be improved by aplha-beta pruining. <br/>
 
 Game Tree: <br/>
-![image](https://github.com/112101011/Tic-Tac-Toe-game/assets/111628378/d60eaf4e-0c65-4cb4-bf75-69d5708e3b28) <br/>
+![tic-tac-toe](https://github.com/112101011/Tic-Tac-Toe-game/assets/111628378/5294d5db-e7bf-4692-a9bf-f46e2fae949f)<br/>
 
 ## Files: <br/>
 File MiniMax search.ipynb contains TicTacToe class written using minimax search without alpha-bheta pruning. <br/>
