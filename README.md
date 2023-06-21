@@ -35,11 +35,18 @@ Time complexity: O(b^(m)) and space complexity is O(bm) [in general]. Later the 
 Game Tree: <br/>
 ![image](https://github.com/112101011/Tic-Tac-Toe-game/assets/111628378/d60eaf4e-0c65-4cb4-bf75-69d5708e3b28) <br/>
 
+## Files: <br/>
 File MiniMax search.ipynb contains TicTacToe class written using minimax search without alpha-bheta pruning. <br/>
 File Alpha Beta pruning.ipynb contains TicTacToe1 class written using minimax search with aplha-bheta pruning. <br/>
+## Advantage of using alpha-beta pruning: <br/>
 The comparision between MiniMax search and MiniMax search using alpha beta pruning gives a good idea about the advantage of pruning in game theory. We can observe the advantage of alpha-beta pruning by noticing that the number of leaves in a Game tree without pruning is around 25,000 whereas after pruning it became around 1000.<br/>
 One example of alpha beta pruning:<br/>
-![image](https://github.com/112101011/Tic-Tac-Toe-game/assets/111628378/b5ebb189-ef22-4217-8fe5-34ccff698ab5)
-Markup : ```javascript
-hi naamasate.
-         ```
+![image](https://github.com/112101011/Tic-Tac-Toe-game/assets/111628378/b5ebb189-ef22-4217-8fe5-34ccff698ab5) <br>
+## New stuff in the program<br/>
+The prgram is written so that every time it will make the moves so that 'X' can win in as less number of steps as possible. This is not a part of minimax search. MiniMax search will help us find the move which result in maximum utility, but that is not enough because there might be multiple nodes with the same maximum utility so in that case node with maximum utility with least depth from the current state is choosen. <br/>
+
+## Futher scope <br/>
+```
+1) We can decrease the depth of exploration in game tree so that 'X' player plays less harder.
+2) We can allow the 'X' player to make some risks so that where the game results in draw can made win to 'X'.
+```
