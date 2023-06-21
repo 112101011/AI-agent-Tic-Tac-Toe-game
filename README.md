@@ -34,8 +34,12 @@ Time complexity: O(b^(m)) and space complexity is O(bm) [in general]. Later the 
 
 <p align="center">
 Game Tree: <br/>
-![tic-tac-toe](https://github.com/112101011/Tic-Tac-Toe-game/assets/111628378/5294d5db-e7bf-4692-a9bf-f46e2fae949f)<br/>
+  
+![tic-tac-toe](https://github.com/112101011/Tic-Tac-Toe-game/assets/111628378/5294d5db-e7bf-4692-a9bf-f46e2fae949f) <br/>
 </p>
+
+
+
 
 ## Files: <br/>
 File MiniMax search.ipynb contains TicTacToe class written using minimax search without alpha-bheta pruning. <br/>
