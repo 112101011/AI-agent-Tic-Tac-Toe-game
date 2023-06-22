@@ -52,8 +52,6 @@ The comparision between MiniMax search and MiniMax search using alpha beta pruni
 One example of alpha beta pruning:<br/>
 ![MIN_MAX2](https://github.com/112101011/Tic-Tac-Toe-game/assets/111628378/0a314af6-7dfe-47fa-b585-d2d95a93bb59) <br/>
 
-[t2key.pdf](https://github.com/112101011/Tic-Tac-Toe-game/files/11837322/t2key.pdf)
-
 ## New stuff in the program<br/>
 The program is written so that every time it will make the moves so that 'X' can win in as less number of steps as possible. This is not a part of minimax search. MiniMax search will help us find the move which result in maximum utility, but that is not enough because there might be multiple nodes with the same maximum utility so in that case node with maximum utility with least depth from the current state is choosen. <br/>
 
