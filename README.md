@@ -10,15 +10,23 @@ The rules are as follows:
   3) The first player to write on three horizontal or vertical or diagonal cells wins.
   4) The player who wins gets 1 point, the player who loses gets -1 point. If a match draws then each player gets 0 points.
   5) The locations in the grid are as follows:<br/>
-     ![image](https://github.com/112101011/Tic-Tac-Toe-game/assets/111628378/9ab470a3-2758-477c-8006-2f8984612307) <br/>
+     |1|2|3|
+     |--|--|--|
+     |4|5|6|
+     |7|8|9|
 Here the AI agent places 'X' optimally. Where as the user(we) places 'O' optimal (or) sub-optimal depends on the user.
 
 Example for the player 'X' winning: <br/>
-![image](https://github.com/112101011/Tic-Tac-Toe-game/assets/111628378/3d72b9ad-5b0e-4575-9529-6b53dd4b2ee7)
+|O|X|O|
+|--|--|--|
+| |X| |
+|O|X|O|
 
 Example for the player 'O' winning: <br/>
-![image](https://github.com/112101011/Tic-Tac-Toe-game/assets/111628378/678b7322-2a06-475b-8188-f69c99d98020)
-
+|O|O|O|
+|--|--|--|
+| |X| |
+| |X| |
 
 ## Approach
 
