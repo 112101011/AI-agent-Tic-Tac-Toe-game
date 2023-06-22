@@ -40,17 +40,9 @@ Here, in the program minimax algorithm is implemented where it assumes that play
 depth-first search exploration of the Game Tree If the maximum depth of the Tree is m and there are b legal moves at each point. 
 Time complexity: O(b^(m)) and space complexity is O(bm) [in general]. Later the performance can be improved by aplha-beta pruining. <br/>
 
-<p align="center">
+
 Game Tree: <br/>
-</p>
-<p align="center">
-  
-  ![tic-tac-toe](https://github.com/112101011/Tic-Tac-Toe-game/assets/111628378/5294d5db-e7bf-4692-a9bf-f46e2fae949f) <br/>
-</p>
-
-
-
-
+![tic-tac-toe](https://github.com/112101011/Tic-Tac-Toe-game/assets/111628378/29756d22-ed18-4926-b469-161bf3ed0dde)<br/>
 
 ## Files: <br/>
 File MiniMax search.ipynb contains TicTacToe class written using minimax search without alpha-bheta pruning. <br/>
@@ -58,9 +50,12 @@ File Alpha Beta pruning.ipynb contains TicTacToe1 class written using minimax se
 ## Advantage of using alpha-beta pruning: <br/>
 The comparision between MiniMax search and MiniMax search using alpha beta pruning gives a good idea about the advantage of pruning in game theory. We can observe the advantage of alpha-beta pruning by noticing that the number of leaves in a Game tree without pruning is around 25,000 whereas after pruning it became around 1000.<br/>
 One example of alpha beta pruning:<br/>
-![image](https://github.com/112101011/Tic-Tac-Toe-game/assets/111628378/b5ebb189-ef22-4217-8fe5-34ccff698ab5) <br>
+![MIN_MAX2](https://github.com/112101011/Tic-Tac-Toe-game/assets/111628378/0a314af6-7dfe-47fa-b585-d2d95a93bb59) <br/>
+
+[t2key.pdf](https://github.com/112101011/Tic-Tac-Toe-game/files/11837322/t2key.pdf)
+
 ## New stuff in the program<br/>
-The prgram is written so that every time it will make the moves so that 'X' can win in as less number of steps as possible. This is not a part of minimax search. MiniMax search will help us find the move which result in maximum utility, but that is not enough because there might be multiple nodes with the same maximum utility so in that case node with maximum utility with least depth from the current state is choosen. <br/>
+The program is written so that every time it will make the moves so that 'X' can win in as less number of steps as possible. This is not a part of minimax search. MiniMax search will help us find the move which result in maximum utility, but that is not enough because there might be multiple nodes with the same maximum utility so in that case node with maximum utility with least depth from the current state is choosen. <br/>
 
 ## Futher scope <br/>
 ```
